@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('./config');
+const config = require('./config.template.js');
 const { v4: uuidV4 } = require('uuid');
 
 module.exports = class ServerApi {
