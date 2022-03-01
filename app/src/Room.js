@@ -1,6 +1,6 @@
 'use strict';
 
-const config = require('./config');
+const config = require('./config.template.js');
 const Logger = require('./Logger');
 const log = new Logger('Room');
 
