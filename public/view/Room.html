@@ -90,10 +90,10 @@ access to use this app.
             <button id="stopAudioButton" class="hidden"><i class="fas fa-microphone"></i></button>
             <button id="startVideoButton" class="hidden"><i class="fas fa-video-slash"></i></button>
             <button id="stopVideoButton" class="hidden"><i class="fas fa-video"></i></button>
-            <button id="swapCameraButton" class="hidden"><i class="fas fa-sync-alt"></i></button>
-            <button id="chatButton" class="hidden"><i class="fas fa-comments"></i></button>
             <button id="startScreenButton" class="hidden"><i class="fas fa-desktop"></i></button>
             <button id="stopScreenButton" class="hidden"><i class="fas fa-stop-circle"></i></button>
+            <button id="swapCameraButton" class="hidden"><i class="fas fa-sync-alt"></i></button>
+            <button id="chatButton" class="hidden"><i class="fas fa-comments"></i></button>
             <button id="whiteboardButton" class="hidden"><i class="fas fa-chalkboard-teacher"></i></button>
             <button id="settingsButton" class="hidden"><i class="fas fa-cogs"></i></button>
             <button id="exitButton" class="hidden"><i class="fas fa-phone-slash"></i></button>
@@ -111,6 +111,7 @@ access to use this app.
                     <button id="tabRoomBtn" class="fas fa-home tablinks"></button>
                     <button id="tabRecordingBtn" class="fas fa-record-vinyl tablinks"></button>
                     <button id="tabYoutubeBtn" class="fab fa-youtube tablinks"></button>
+                    <button id="tabAspectBtn" class="fas fa-cog tablinks"></button>
                     <button id="tabStylingBtn" class="fas fa-palette tablinks"></button>
                 </div>
 
@@ -214,7 +215,7 @@ access to use this app.
                     <br />
                 </div>
 
-                <div id="tabStyling" class="tabcontent">
+                <div id="tabAspect" class="tabcontent">
                     <br />
                     <p>Aspect ratio:</p>
                     <br />
@@ -234,6 +235,17 @@ access to use this app.
                         <option value="cover">cover</option>
                         <option value="scale-down">scale-down</option>
                         <option value="none">none</option>
+                    </select>
+                    <br />
+                </div>
+
+                <div id="tabStyling" class="tabcontent">
+                    <br />
+                    <p>Theme:</p>
+                    <br />
+                    <select id="selectTheme" class="form-select text-light bg-dark">
+                        <option value="dark">⚫ &nbsp;Dark</option>
+                        <option value="grey">⚪ &nbsp;Grey</option>
                     </select>
                     <br />
                     <p>Buttons bar:</p>
